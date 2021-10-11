@@ -23,3 +23,6 @@ See the [Ethereum Witness README](https://github.com/google/trillian-examples/bl
 - run `yarn` to install dependencies
 - run `yarn start` to run one iteration of the feeder
 - run `yarn dev` to run the feeder in "watch" mode (useful for development)
+
+#### Benchmarks
+- run `yarn benchmark` to run the benchmark script

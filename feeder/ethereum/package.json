@@ -7,6 +7,8 @@
     "format": "prettier -w src",
     "dev": "nodemon --watch src -e ts --exec yarn run start",
     "start": "ts-node src",
+    "start:docker": "docker run --rm -it $(docker build -q .)",
+    "benchmark": "ts-node src/benchmark",
     "license-report": "legally --plain > LICENSE_REPORT.txt"
   },
   "author": "sinasabet@google.com",
